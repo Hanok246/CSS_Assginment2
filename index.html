@@ -1,0 +1,120 @@
+<!-- 
+STUDENT ID: 200559866
+STUDENT NAME: HANOK LUNGELI
+
+OBJECTIVE: TO MAKE A LYRICS WEBSITE
+
+ -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Heart Will Go On</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Creating a Heading for the song -->
+  <h1>My Heart Will Go On</h1>
+
+
+  <!-- Creating a nav bar for the page -->
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="#">Movie</a></li>
+      <li><a href="#">Buy Song</a></li>
+    </ul>
+  </nav>
+
+  <!-- This will lead the picture of song click to the youtube link. -->
+  <a href="https://www.youtube.com/watch?v=3gK_2XdjOdY&ab_channel=Filledagreat" target="_blank">
+    <img src="Assets/MyHeartWill.png" width="500" alt="My heart will go on picture">
+  </a>
+
+    <!-- Inserting a video inside the verse that cane be seen -->
+    <video width="500" height="260" muted controls style="float: right; cursor: pointer;">
+      <source src="Assets/Titanic-MyHeartWillGoOn(MusicVideo).mp4" type="video/mp4">
+     </video>
+  <!-- First verse of the song. -->
+  <div class="verse">
+    
+      <p>Verse 1:</p>
+      <p>Every night in my dreams</p>
+      <p>I see you, I feel you</p>
+      <p>That is how I know you</p>
+      
+      <br>
+
+      <p>Far across the distance</p>
+      <p>And spaces between us</p>
+      <p>You have come to show you go on</p>
+    </div>
+
+    <!-- Main chorus of the song -->
+  <div class="chorus">
+    <p>Chorus:</p>
+    <p>Near, far wherever you are</p>
+    <p>I believe that the heart does go on</p>
+    <p>Once more, you open the door</p>
+    <p>And you're here in my heart</p>
+    <p>And my heart will go on and on</p>
+  </div>
+
+  <!-- Verse 2 of the song -->
+  <div class="verse">
+    <p>Verse 2:</p>
+    <p>Love can touch us one time</p>
+    <p>And last for a lifetime</p>
+    <p>And never let go 'till we're gone</p>
+    
+    <br>
+
+    <p>Love was when I loved you</p>
+    <p>One true time I'd hold to</p>
+    <p>In my life, we'll always go on</p>
+  </div>
+
+  <!-- Chorus repeating again -->
+ <div class="chorus">
+    <p>Chorus:</p>
+    <p>Near, far wherever you are</p>
+    <p>I believe that the heart does go on</p>
+    <p>Once more, you open the door</p>
+    <p>And you're here in my heart</p>
+    <p>And my heart will go on and on</p>
+  </div>
+
+  <!-- Final Verse of the song -->
+  <div class="verse">
+    <p>Verse 3:</p>
+    <p>You're here, there's nothing I fear</p>
+    <p>And I know that my heart will go on</p>
+    <p>We'll stay forever this way</p>
+    <p>You are safe in my heart and</p>
+    <p>My heart will go on and on....</p>
+  </div>
+
+  <!-- Creating a form  -->
+  <h2>Feedback Form</h2>
+
+  <form action="#" method="post">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+  
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+  
+      <label for="feedback">Feedback Comment:</label>
+      <textarea id="feedback" name="feedback" placeholder="Leave your comment here" onblur="placeholder"></textarea>
+  
+      <input type="submit" value="Submit">
+  </form>
+  
+  <!-- Creating a footer -->
+  <footer>
+    Copyright© Reserved 
+  </footer>
+</body>
+</html>
